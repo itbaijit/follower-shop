@@ -1,5 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;700;800&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
+
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-text h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+button {
+  display: flex;
+  padding: 20px 43px;
+  background-color: #e55473;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 1s;
+}
+button:hover {
+    background-color: #272727;
+    padding: 20px 73px;
+}
+
+.banner .banner-img img{
+  width: 20px;
+  vertical-align: middle;
+}
+
+
